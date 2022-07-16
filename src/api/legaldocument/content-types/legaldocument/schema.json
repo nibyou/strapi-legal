@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "legaldocuments",
+  "info": {
+    "singularName": "legaldocument",
+    "pluralName": "legaldocuments",
+    "displayName": "legaldocument"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "terms": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    },
+    "privacy": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    }
+  }
+}
